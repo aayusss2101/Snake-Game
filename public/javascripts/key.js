@@ -9,7 +9,6 @@ export class Key{
      * @returns 
      */
     static getDirection(e, oldDirection) {
-        console.log(e)
         if(e.code=="ArrowUp"){
             if (oldDirection != Direction.DOWN)
                 return Direction.UP;
